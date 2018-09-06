@@ -29,7 +29,7 @@ end
 
 	private
 
-def post_params
+def post_params(*args)
   params.require(:post).permit(:title, :description)
 end
 
